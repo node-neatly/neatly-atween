@@ -10,7 +10,7 @@
   ],
   "version": "0.0.1",
   "dependencies": {
-    "atween": "^0.1.x",
+    "atween": "^0.0.x",
     "neatly": "^0.2.2"
   },
   "repository": "git@github.com:node-neatly/neatly-atween.git",
