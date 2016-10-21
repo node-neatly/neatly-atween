@@ -22,6 +22,11 @@ mod.provider('$atween', function() {
 
 		return {
 
+			registerHook: atween.registerHook.bind(atween),
+			registerInterceptor: atween.registerInterceptor.bind(atween),
+			registerEvent: atween.registerEvent.bind(atween),
+
+
 			/**
 			 * Wrapper for atween.runHooks with neatly invoker
 			 * @param  {[type]} name  [description]
